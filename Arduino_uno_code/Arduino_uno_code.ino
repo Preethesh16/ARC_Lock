@@ -1,4 +1,4 @@
-#define relay 12
+#define relay 10
 #define buzzer 3
  char a;
  bool on=false;
