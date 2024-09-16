@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Afeef/library test for Firebase.md",
+                "file": "Overall summary.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Afeef/library test for Firebase.md",
+                "file": "Overall summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Afeef/library test for Firebase.md",
+                "file": "Overall summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Afeef/library test for Firebase.md"
+                "file": "Overall summary.md"
               }
             }
           },
@@ -156,10 +156,10 @@
   },
   "active": "10881f0c1c0a24b9",
   "lastOpenFiles": [
+    "Afeef/library test for Firebase.md",
+    "Overall summary.md",
     "Pasted image 20240916151545.png",
     "Pasted image 20240916151538.png",
-    "Overall summary.md",
-    "Afeef/library test for Firebase.md",
     "Afeef",
     "Introduction.md",
     "Index page.md",
@@ -173,7 +173,6 @@
     "course-downloads/cloud-storage/tools/docker.png",
     "course-downloads/cloud-storage/process/devops.png",
     "course-downloads/cloud-storage/cloud/googlecloud.png",
-    "course-downloads/cloud-storage/cloud/azure.png",
     "course-downloads/cloud-storage/2030/11",
     "course-downloads/cloud-storage/2030/10",
     "course-downloads/app-engine/my-first-service/requirements.txt",
