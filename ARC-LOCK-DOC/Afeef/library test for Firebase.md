@@ -17,6 +17,6 @@ It requires lot of maintenance, also sometimes get stuck processing the transact
 
 ### FirebaseESP8266.h
 It is the best library that I have found, It can send data and receive data with in 200 ms. this is the best for all our database library.
-![[Pasted image 20240916151545.png]]
+![[Pasted image 20240916151538.png]]
 
 The entire test code is present in test/FirebaseESP8266_test.
