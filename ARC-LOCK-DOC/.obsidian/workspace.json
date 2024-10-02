@@ -11,9 +11,11 @@
             "id": "8d741ab37195e116",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Project_Plan.excalidraw"
+                "file": "Overall summary.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Project_Plan.excalidraw",
+                "file": "Overall summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Project_Plan.excalidraw",
+                "file": "Overall summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Project_Plan.excalidraw"
+                "file": "Overall summary.md"
               }
             }
           },
@@ -155,10 +157,10 @@
   },
   "active": "8d741ab37195e116",
   "lastOpenFiles": [
-    "Overall summary.md",
-    "Excalidraw/Project_Plan.excalidraw",
-    "Pasted image 20240916151538.png",
     "Afeef/library test for Firebase.md",
+    "Overall summary.md",
+    "Pasted image 20240916151538.png",
+    "Excalidraw/Project_Plan.excalidraw",
     "Excalidraw/Project Plan.excalidraw.md",
     "Afeef/Unconfirmed 465200.crdownload",
     "Excalidraw",

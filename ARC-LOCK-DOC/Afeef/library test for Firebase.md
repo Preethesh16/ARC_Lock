@@ -2,6 +2,9 @@
 **date**: 15/09/2024
 **Objective**: To find the library that has best write and read speed in esp8266.
 
+## Test file:
+ARC_Lock/test/FirebaseESP8266_test
+
 ## Options
 1. ESP8266Firebase.h
 2. FirebaseArduino.h
