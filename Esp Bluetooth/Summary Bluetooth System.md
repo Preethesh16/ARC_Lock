@@ -6,7 +6,7 @@ The purpose of the code is to control a **solenoid lock** via a Bluetooth connec
 The reason for using Bluetooth for door locking system is if the wifi is disconnected it is difficult for the lock to unlock. As an alternate way to unlock, we are using Bluetooth medium.
 
 ## Components involved
-- ESP8266 (ESP-12E NodeMCU 1.0) with D1, D2, D3 pins in use.
+- ESP8266 (ESP-12E NodeMCU 1.0) with Serial Transfer pins in use.
 - **HC-05 Bluetooth module** for receiving wireless commands.
 - **Solenoid lock** controlled by a digital pin (D3).
 
@@ -14,3 +14,4 @@ The reason for using Bluetooth for door locking system is if the wifi is disconn
 
 1. [[Why HC-05 Bluetooth module?]]
 2. [[Changes made in code from accessing through character to string]]
+3. Serial begin(9600)

@@ -1,15 +1,11 @@
-#include <SoftwareSerial.h>
-#include <Arduino.h>
-
-SoftwareSerial BTSerial(D1, D2); 
+#include <Arduino.h> 
 
 const int solenoidPin = D3; 
-const int buzzerPin = D1;
+const int buzzerPin = D4;
 void unlockSolenoid();
 
 void setup() {
-  Serial.begin(115200);  // Initialize Serial for debugging
-  BTSerial.begin(9600);  // HC-05 works at 9600 baudrate
+  Serial.begin(9600);  // Initialize Serial for debugging
   
   pinMode(solenoidPin, OUTPUT);
   digitalWrite(solenoidPin, LOW);  //start mein lock rakhne kilye
@@ -38,14 +34,14 @@ void beep(int type)
   }
 }
 void loop() {
-  if (BTSerial.available()) {
-    String receivedData = BTSerial.readString();  // Read the entire string
+  if (Serial.available()) {
+    String receivedData = Serial.readStringUntil('\n');  // Read the entire string
     
     Serial.print("Received: ");
     Serial.println(receivedData);
 
     // to check karna sirf ek hi string ho aur access
-    if (receivedData.length() == 1 && receivedData[0] == '#') {
+    if (receivedData == "arc@123") {
       unlockSolenoid();
     } else {
       Serial.print("Invalid input: ");
@@ -61,7 +57,7 @@ void unlockSolenoid() {
   digitalWrite(solenoidPin, HIGH);  // open
   beep(1);
  
-  delay(3000);
+  delay(5000);
 
   // Lock the solenoid again
   Serial.println("Locking solenoid...");

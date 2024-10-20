@@ -1,7 +1,7 @@
 ### Original Code (Character Handling):
 ```
-if (BTSerial.available()) {
-    char receivedChar = BTSerial.read();
+if (Serial.available()) {
+    char receivedChar = Serial.read();
     Serial.print("Received: ");
     Serial.println(receivedChar);
 
@@ -16,13 +16,13 @@ if (BTSerial.available()) {
 ```
 ### Modified Code (String Handling):
 ```
-if (BTSerial.available()) {
-    String receivedData = BTSerial.readString();  // Read the full string
+if (Serial.available()) {
+    String receivedData = Serial.readStringUntil();  // Read the full string
     Serial.print("Received: ");
     Serial.println(receivedData);
 
     // Check if the received data is exactly one character and is '#'
-    if (receivedData.length() == 1 && receivedData[0] == '#') {
+    if (receivedData == "#") {
         unlockSolenoid();  // Correct command received
     } else {
         Serial.print("Invalid input: ");
@@ -32,6 +32,6 @@ if (BTSerial.available()) {
 ```
 
 - **Original Approach:** The code handled individual characters and unlocked the solenoid only when a `#` character was received.
-- **Modified Approach:** Now, the code reads the entire input as a **string**. It checks if the input is exactly one character (`#`) before unlocking the solenoid, ensuring greater stability and preventing incorrect input.
+- **Modified Approach:** Now, the code reads the entire input as a **string**. It checks if the input is exactly same string `"#"`  before unlocking the solenoid, ensuring greater stability and preventing incorrect input.
 
 This change provides more flexibility and robust input handling, making the code suitable for more complex systems where Bluetooth commands might vary in length or content.
