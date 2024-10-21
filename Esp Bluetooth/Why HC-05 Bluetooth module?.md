@@ -1,0 +1,3 @@
+*Because there is no built-in Bluetooth in ESP8266 (ESP-12E NodeMCU 1.0)  that's why we are using a external Bluetooth module.*
+
+The HC-05 module is a solid choice for wireless communication in your project because it’s easy to set up, inexpensive, reliable, and sufficient for simple commands like unlocking a solenoid lock. It also integrates well with microcontrollers and offers enough range and speed for typical control tasks.
