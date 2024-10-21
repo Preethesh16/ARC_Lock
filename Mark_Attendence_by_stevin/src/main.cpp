@@ -15,9 +15,9 @@
 #include <NTPClient.h>
 
 // hidden code id : 1
-#define WIFI_SSID "ARC-WIFI"
-#define WIFI_PASSWORD "Arc@#Pass156"
-#define DATABASE_URL "arc-lock-6e5c6-default-rtdb.asia-southeast1.firebasedatabase.app"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define DATABASE_URL ""
 
 FirebaseData fbdo;
 
@@ -199,7 +199,7 @@ void setup()
 	config.database_url = DATABASE_URL;
 
 	// hiden code id : 2
-	config.signer.tokens.legacy_token = "EJf6A6wWjYycd06bLoLzD4ziGJjiwcdpHwzOxFYq";
+	config.signer.tokens.legacy_token = "";
 
 	Firebase.begin(&config, &auth);
 
