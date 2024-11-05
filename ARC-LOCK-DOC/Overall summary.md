@@ -5,4 +5,3 @@
 	2. It is difficult to handle the large RFID card number in the ROM 
 	3. There is no need of using it because there will be continuous internet and power, even the bypass system can also be used if there is any issues.
 3. A temporary code is designed to keep the system working until the project is done completely. file location: ARC_Lock/temp/FirebaseESP8266_temp
-4. 

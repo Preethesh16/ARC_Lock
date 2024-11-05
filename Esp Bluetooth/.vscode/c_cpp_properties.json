@@ -10,7 +10,6 @@
             "includePath": [
                 "/home/infinity/Documents/ARC_Lock/Esp Bluetooth/include",
                 "/home/infinity/Documents/ARC_Lock/Esp Bluetooth/src",
-                "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                 "/home/infinity/.platformio/packages/toolchain-xtensa/include",
@@ -43,6 +42,7 @@
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
+                "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
                 "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
@@ -59,7 +59,6 @@
                 "path": [
                     "/home/infinity/Documents/ARC_Lock/Esp Bluetooth/include",
                     "/home/infinity/Documents/ARC_Lock/Esp Bluetooth/src",
-                    "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include",
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/cores/esp8266",
                     "/home/infinity/.platformio/packages/toolchain-xtensa/include",
@@ -92,6 +91,7 @@
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SPI",
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SPISlave/src",
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src",
+                    "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial/src",
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2",
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker/src",
                     "/home/infinity/.platformio/packages/framework-arduinoespressif8266/libraries/Wire",
